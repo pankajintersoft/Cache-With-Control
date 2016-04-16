@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+	<name>PLG_SYSTEM_CACHEWITHCONTROL</name>
+	<author>Pankaj</author>
+	<creationDate>August 2015</creationDate>
+	<copyright>Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>pankajplugins@gmail.com</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>3.0.0</version>
+	<description>PLG_CACHE_WITH_CONTROL_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="cachewithcontrol">cachewithcontrol.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<scriptfile>install.php</scriptfile>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_cachewithcontrol.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_cachewithcontrol.sys.ini</language>
+	</languages>
+	<config>
+	<fields name="params">
+		<fieldset name="basic">
+			<field	name="browsercache" type="radio" class="btn-group btn-group-yesno"	default="0"	description="PLG_CACHE_FIELD_BROWSERCACHE_DESC"
+				label="PLG_CACHE_FIELD_BROWSERCACHE_LABEL">
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+			<field name="definitions" type="textarea" cols="30" rows="10" default="option=com_content" label="Rules" description="Add a line for each rule. Each line consists of a list of url parameters. For instance option=com_content&amp;view=article would turn off caching for com_content in article view. You can also use ? for any value, for instance option=com_content&amp;view=article&amp;id=?. Please do not forget to enable the plugin!"/>			
+		</fieldset>
+	</fields>
+	</config>
+</extension>
