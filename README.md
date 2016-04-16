@@ -21,4 +21,14 @@ Adding rules for disable cache for specific pages or component or views is very 
 
 You can write as many rules as you want separated by new line.
 
-#cache, #cache control, #cache plugin, #cache with control, #disable cache, #joomla cache, #no cache, #page cache, #paging cache, #restrict page cache, #stop page cache
+#cache, 
+#cache control,
+#cache plugin, 
+#cache with control, 
+#disable cache, 
+#joomla cache, 
+#no cache, 
+#page cache, 
+#paging cache, 
+#restrict page cache, 
+#stop page cache
