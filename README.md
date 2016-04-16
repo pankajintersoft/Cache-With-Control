@@ -20,3 +20,5 @@ Adding rules for disable cache for specific pages or component or views is very 
 3. Third rule will disable cache for joomla article which having id=1
 
 You can write as many rules as you want separated by new line.
+
+#cache, #cache control, #cache plugin, #cache with control, #disable cache, #joomla cache, #no cache, #page cache, #paging cache, #restrict page cache, #stop page cache
